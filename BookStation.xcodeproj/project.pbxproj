@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B7C2CF17DB100615C4E /* BookStationApp.swift */; };
+		EC496B7F2CF17DB100615C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B7E2CF17DB100615C4E /* ContentView.swift */; };
+		EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B802CF17DB700615C4E /* Assets.xcassets */; };
+		EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B832CF17DB700615C4E /* Preview Assets.xcassets */; };
+		EC496B8E2CF17DB800615C4E /* BookStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B8D2CF17DB800615C4E /* BookStationTests.swift */; };
+		EC496B982CF17DB800615C4E /* BookStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B972CF17DB800615C4E /* BookStationUITests.swift */; };
+		EC496B9A2CF17DB800615C4E /* BookStationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC496B8A2CF17DB800615C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC496B712CF17DB000615C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC496B782CF17DB100615C4E;
+			remoteInfo = BookStation;
+		};
+		EC496B942CF17DB800615C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC496B712CF17DB000615C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC496B782CF17DB100615C4E;
+			remoteInfo = BookStation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC496B792CF17DB100615C4E /* BookStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC496B7C2CF17DB100615C4E /* BookStationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationApp.swift; sourceTree = "<group>"; };
+		EC496B7E2CF17DB100615C4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC496B802CF17DB700615C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC496B832CF17DB700615C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC496B892CF17DB800615C4E /* BookStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC496B8D2CF17DB800615C4E /* BookStationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationTests.swift; sourceTree = "<group>"; };
+		EC496B932CF17DB800615C4E /* BookStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC496B972CF17DB800615C4E /* BookStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationUITests.swift; sourceTree = "<group>"; };
+		EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC496B762CF17DB100615C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B862CF17DB800615C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B902CF17DB800615C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC496B702CF17DB000615C4E = {
+			isa = PBXGroup;
+			children = (
+				EC496B7B2CF17DB100615C4E /* BookStation */,
+				EC496B8C2CF17DB800615C4E /* BookStationTests */,
+				EC496B962CF17DB800615C4E /* BookStationUITests */,
+				EC496B7A2CF17DB100615C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC496B7A2CF17DB100615C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC496B792CF17DB100615C4E /* BookStation.app */,
+				EC496B892CF17DB800615C4E /* BookStationTests.xctest */,
+				EC496B932CF17DB800615C4E /* BookStationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC496B7B2CF17DB100615C4E /* BookStation */ = {
+			isa = PBXGroup;
+			children = (
+				EC496B7C2CF17DB100615C4E /* BookStationApp.swift */,
+				EC496B7E2CF17DB100615C4E /* ContentView.swift */,
+				EC496B802CF17DB700615C4E /* Assets.xcassets */,
+				EC496B822CF17DB700615C4E /* Preview Content */,
+			);
+			path = BookStation;
+			sourceTree = "<group>";
+		};
+		EC496B822CF17DB700615C4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC496B832CF17DB700615C4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC496B8C2CF17DB800615C4E /* BookStationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC496B8D2CF17DB800615C4E /* BookStationTests.swift */,
+			);
+			path = BookStationTests;
+			sourceTree = "<group>";
+		};
+		EC496B962CF17DB800615C4E /* BookStationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC496B972CF17DB800615C4E /* BookStationUITests.swift */,
+				EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */,
+			);
+			path = BookStationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC496B782CF17DB100615C4E /* BookStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC496B9D2CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStation" */;
+			buildPhases = (
+				EC496B752CF17DB100615C4E /* Sources */,
+				EC496B762CF17DB100615C4E /* Frameworks */,
+				EC496B772CF17DB100615C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookStation;
+			productName = BookStation;
+			productReference = EC496B792CF17DB100615C4E /* BookStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC496B882CF17DB800615C4E /* BookStationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC496BA02CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStationTests" */;
+			buildPhases = (
+				EC496B852CF17DB800615C4E /* Sources */,
+				EC496B862CF17DB800615C4E /* Frameworks */,
+				EC496B872CF17DB800615C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC496B8B2CF17DB800615C4E /* PBXTargetDependency */,
+			);
+			name = BookStationTests;
+			productName = BookStationTests;
+			productReference = EC496B892CF17DB800615C4E /* BookStationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC496B922CF17DB800615C4E /* BookStationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC496BA32CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStationUITests" */;
+			buildPhases = (
+				EC496B8F2CF17DB800615C4E /* Sources */,
+				EC496B902CF17DB800615C4E /* Frameworks */,
+				EC496B912CF17DB800615C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC496B952CF17DB800615C4E /* PBXTargetDependency */,
+			);
+			name = BookStationUITests;
+			productName = BookStationUITests;
+			productReference = EC496B932CF17DB800615C4E /* BookStationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC496B712CF17DB000615C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EC496B782CF17DB100615C4E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EC496B882CF17DB800615C4E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC496B782CF17DB100615C4E;
+					};
+					EC496B922CF17DB800615C4E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC496B782CF17DB100615C4E;
+					};
+				};
+			};
+			buildConfigurationList = EC496B742CF17DB000615C4E /* Build configuration list for PBXProject "BookStation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC496B702CF17DB000615C4E;
+			productRefGroup = EC496B7A2CF17DB100615C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC496B782CF17DB100615C4E /* BookStation */,
+				EC496B882CF17DB800615C4E /* BookStationTests */,
+				EC496B922CF17DB800615C4E /* BookStationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC496B772CF17DB100615C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */,
+				EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B872CF17DB800615C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B912CF17DB800615C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC496B752CF17DB100615C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC496B7F2CF17DB100615C4E /* ContentView.swift in Sources */,
+				EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B852CF17DB800615C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC496B8E2CF17DB800615C4E /* BookStationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC496B8F2CF17DB800615C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC496B9A2CF17DB800615C4E /* BookStationUITestsLaunchTests.swift in Sources */,
+				EC496B982CF17DB800615C4E /* BookStationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC496B8B2CF17DB800615C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC496B782CF17DB100615C4E /* BookStation */;
+			targetProxy = EC496B8A2CF17DB800615C4E /* PBXContainerItemProxy */;
+		};
+		EC496B952CF17DB800615C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC496B782CF17DB100615C4E /* BookStation */;
+			targetProxy = EC496B942CF17DB800615C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC496B9B2CF17DB800615C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC496B9C2CF17DB800615C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC496B9E2CF17DB800615C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookStation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC496B9F2CF17DB800615C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BookStation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC496BA12CF17DB800615C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookStation.app/BookStation";
+			};
+			name = Debug;
+		};
+		EC496BA22CF17DB800615C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookStation.app/BookStation";
+			};
+			name = Release;
+		};
+		EC496BA42CF17DB800615C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookStation;
+			};
+			name = Debug;
+		};
+		EC496BA52CF17DB800615C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookStation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC496B742CF17DB000615C4E /* Build configuration list for PBXProject "BookStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC496B9B2CF17DB800615C4E /* Debug */,
+				EC496B9C2CF17DB800615C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC496B9D2CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC496B9E2CF17DB800615C4E /* Debug */,
+				EC496B9F2CF17DB800615C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC496BA02CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC496BA12CF17DB800615C4E /* Debug */,
+				EC496BA22CF17DB800615C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC496BA32CF17DB800615C4E /* Build configuration list for PBXNativeTarget "BookStationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC496BA42CF17DB800615C4E /* Debug */,
+				EC496BA52CF17DB800615C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC496B712CF17DB000615C4E /* Project object */;
+}
