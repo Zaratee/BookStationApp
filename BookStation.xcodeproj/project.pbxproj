@@ -11,9 +11,9 @@
 		EC496B7F2CF17DB100615C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B7E2CF17DB100615C4E /* ContentView.swift */; };
 		EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B802CF17DB700615C4E /* Assets.xcassets */; };
 		EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B832CF17DB700615C4E /* Preview Assets.xcassets */; };
-		EC496B8E2CF17DB800615C4E /* BookStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B8D2CF17DB800615C4E /* BookStationTests.swift */; };
-		EC496B982CF17DB800615C4E /* BookStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B972CF17DB800615C4E /* BookStationUITests.swift */; };
-		EC496B9A2CF17DB800615C4E /* BookStationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */; };
+		EC4CEFFD2CF19501009F81EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */; };
+		EC4CF0002CF19F65009F81EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CEFFF2CF19F65009F81EE /* FirebaseAnalytics */; };
+		EC4CF0022CF19F65009F81EE /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CF0012CF19F65009F81EE /* FirebaseAnalyticsSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,8 @@
 		EC496B802CF17DB700615C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC496B832CF17DB700615C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC496B892CF17DB800615C4E /* BookStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC496B8D2CF17DB800615C4E /* BookStationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationTests.swift; sourceTree = "<group>"; };
 		EC496B932CF17DB800615C4E /* BookStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC496B972CF17DB800615C4E /* BookStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationUITests.swift; sourceTree = "<group>"; };
-		EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4CF0022CF19F65009F81EE /* FirebaseAnalyticsSwift in Frameworks */,
+				EC4CF0002CF19F65009F81EE /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				EC496B7B2CF17DB100615C4E /* BookStation */,
-				EC496B8C2CF17DB800615C4E /* BookStationTests */,
-				EC496B962CF17DB800615C4E /* BookStationUITests */,
 				EC496B7A2CF17DB100615C4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +92,7 @@
 		EC496B7B2CF17DB100615C4E /* BookStation */ = {
 			isa = PBXGroup;
 			children = (
+				EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */,
 				EC496B7C2CF17DB100615C4E /* BookStationApp.swift */,
 				EC496B7E2CF17DB100615C4E /* ContentView.swift */,
 				EC496B802CF17DB700615C4E /* Assets.xcassets */,
@@ -108,23 +107,6 @@
 				EC496B832CF17DB700615C4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EC496B8C2CF17DB800615C4E /* BookStationTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC496B8D2CF17DB800615C4E /* BookStationTests.swift */,
-			);
-			path = BookStationTests;
-			sourceTree = "<group>";
-		};
-		EC496B962CF17DB800615C4E /* BookStationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EC496B972CF17DB800615C4E /* BookStationUITests.swift */,
-				EC496B992CF17DB800615C4E /* BookStationUITestsLaunchTests.swift */,
-			);
-			path = BookStationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +125,10 @@
 			dependencies = (
 			);
 			name = BookStation;
+			packageProductDependencies = (
+				EC4CEFFF2CF19F65009F81EE /* FirebaseAnalytics */,
+				EC4CF0012CF19F65009F81EE /* FirebaseAnalyticsSwift */,
+			);
 			productName = BookStation;
 			productReference = EC496B792CF17DB100615C4E /* BookStation.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +201,9 @@
 				Base,
 			);
 			mainGroup = EC496B702CF17DB000615C4E;
+			packageReferences = (
+				EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EC496B7A2CF17DB100615C4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +222,7 @@
 			files = (
 				EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */,
 				EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */,
+				EC4CEFFD2CF19501009F81EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC496B8E2CF17DB800615C4E /* BookStationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC496B9A2CF17DB800615C4E /* BookStationUITestsLaunchTests.swift in Sources */,
-				EC496B982CF17DB800615C4E /* BookStationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BookStation.BookStation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BookStation.BookStation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BookStation.BookStation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -599,6 +586,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 10.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC4CEFFF2CF19F65009F81EE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EC4CF0012CF19F65009F81EE /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC496B712CF17DB000615C4E /* Project object */;
 }
