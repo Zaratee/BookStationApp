@@ -17,6 +17,7 @@
 		EC4CF0052CF244D0009F81EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CF0042CF244D0009F81EE /* FirebaseAuth */; };
 		EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CF0092CF24694009F81EE /* AuthenticationView.swift */; };
 		ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CB92CF2A87600A837B9 /* HomeView.swift */; };
+		ECC75CBC2CF2B4FF00A837B9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC4CF0092CF24694009F81EE /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		ECC75CB92CF2A87600A837B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC75CB82CF2A7D500A837B9 /* Views */,
-				EC4CF0062CF24635009F81EE /* Models */,
+				EC4CF0062CF24635009F81EE /* Services */,
 				EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */,
 				EC496B7C2CF17DB100615C4E /* BookStationApp.swift */,
 				EC496B802CF17DB700615C4E /* Assets.xcassets */,
@@ -124,12 +126,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC4CF0062CF24635009F81EE /* Models */ = {
+		EC4CF0062CF24635009F81EE /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				EC3DEA922CF257F200328B7B /* AuthenticationManager.swift */,
 			);
-			path = Models;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		ECC75CB82CF2A7D500A837B9 /* Views */ = {
@@ -137,6 +139,7 @@
 			children = (
 				EC4CF0092CF24694009F81EE /* AuthenticationView.swift */,
 				ECC75CB92CF2A87600A837B9 /* HomeView.swift */,
+				ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */,
 				EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */,
 				ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */,
+				ECC75CBC2CF2B4FF00A837B9 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

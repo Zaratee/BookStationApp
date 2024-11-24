@@ -14,7 +14,7 @@ struct BookStationApp: App {
     
     var body: some Scene {
         WindowGroup {
-            AuthenticationView()
+            RootView()
         }
     }
     
