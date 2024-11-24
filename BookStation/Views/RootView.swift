@@ -1,10 +1,3 @@
-//
-//  RootView.swift
-//  BookStation
-//
-//  Created by TECNOSYSTEM2000 on 23/11/24.
-//
-
 import SwiftUI
 
 prefix func ! (value: Binding<Bool>) -> Binding<Bool> {

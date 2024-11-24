@@ -18,6 +18,8 @@
 		EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CF0092CF24694009F81EE /* AuthenticationView.swift */; };
 		ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CB92CF2A87600A837B9 /* HomeView.swift */; };
 		ECC75CBC2CF2B4FF00A837B9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */; };
+		ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */; };
+		ECC75CC12CF2DB0500A837B9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EC4CF0092CF24694009F81EE /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		ECC75CB92CF2A87600A837B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		EC496B7B2CF17DB100615C4E /* BookStation */ = {
 			isa = PBXGroup;
 			children = (
+				ECC75CBD2CF2DA6500A837B9 /* Models */,
 				ECC75CB82CF2A7D500A837B9 /* Views */,
 				EC4CF0062CF24635009F81EE /* Services */,
 				EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */,
@@ -142,6 +147,15 @@
 				ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ECC75CBD2CF2DA6500A837B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */,
+				ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */,
 				EC3DEA932CF257F200328B7B /* AuthenticationManager.swift in Sources */,
+				ECC75CC12CF2DB0500A837B9 /* HomeViewModel.swift in Sources */,
 				EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */,
 				EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */,
 				ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */,
