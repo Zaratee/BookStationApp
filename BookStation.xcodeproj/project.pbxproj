@@ -11,11 +11,11 @@
 		EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496B7C2CF17DB100615C4E /* BookStationApp.swift */; };
 		EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B802CF17DB700615C4E /* Assets.xcassets */; };
 		EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC496B832CF17DB700615C4E /* Preview Assets.xcassets */; };
-		EC4CEFFD2CF19501009F81EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */; };
 		EC4CF0002CF19F65009F81EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CEFFF2CF19F65009F81EE /* FirebaseAnalytics */; };
 		EC4CF0022CF19F65009F81EE /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CF0012CF19F65009F81EE /* FirebaseAnalyticsSwift */; };
 		EC4CF0052CF244D0009F81EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC4CF0042CF244D0009F81EE /* FirebaseAuth */; };
 		EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CF0092CF24694009F81EE /* AuthenticationView.swift */; };
+		ECBFA6642CF43165005B1C4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECBFA6632CF43165005B1C4F /* GoogleService-Info.plist */; };
 		ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CB92CF2A87600A837B9 /* HomeView.swift */; };
 		ECC75CBC2CF2B4FF00A837B9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */; };
 		ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */; };
@@ -56,8 +56,8 @@
 		EC496B832CF17DB700615C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC496B892CF17DB800615C4E /* BookStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC496B932CF17DB800615C4E /* BookStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC4CF0092CF24694009F81EE /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		ECBFA6632CF43165005B1C4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ECC75CB92CF2A87600A837B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
@@ -123,10 +123,10 @@
 		EC496B7B2CF17DB100615C4E /* BookStation */ = {
 			isa = PBXGroup;
 			children = (
+				ECBFA6632CF43165005B1C4F /* GoogleService-Info.plist */,
 				ECC75CBD2CF2DA6500A837B9 /* Models */,
 				ECC75CB82CF2A7D500A837B9 /* Views */,
 				EC4CF0062CF24635009F81EE /* Services */,
-				EC4CEFFC2CF19500009F81EE /* GoogleService-Info.plist */,
 				EC496B7C2CF17DB100615C4E /* BookStationApp.swift */,
 				EC496B802CF17DB700615C4E /* Assets.xcassets */,
 				EC496B822CF17DB700615C4E /* Preview Content */,
@@ -300,7 +300,7 @@
 			files = (
 				EC496B842CF17DB700615C4E /* Preview Assets.xcassets in Resources */,
 				EC496B812CF17DB700615C4E /* Assets.xcassets in Resources */,
-				EC4CEFFD2CF19501009F81EE /* GoogleService-Info.plist in Resources */,
+				ECBFA6642CF43165005B1C4F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
