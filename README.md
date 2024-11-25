@@ -1,5 +1,5 @@
 # BookStationApp
- Aplicación mobil con Swift
+ Aplicación móvil con Swift
 
 ## Características
 - Firebase Auth
