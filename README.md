@@ -23,9 +23,28 @@
 9. Ya pegada la url seleccionar en el menu de "Dependency Rule" la opción Exact Version y escribir 10.4.0 y por último dar click en el botón de "Add Package"
 <img src="/assets/pic4.png" alt="drawing" height="400"/>
 10. Se descargará y se mostrará otro cuadro donde elegira FirebaseAnalytics, FirebaseAnalyticsSwift y FirebaseAuth
+
 11. Repetir pasos del 5 al 7
+
 12. Ahi copiar y pegar el siguiente link https://github.com/SwiftyJSON/SwiftyJSON
+
 13. Ya pegada la url seleccionar en el menu de "Dependency Rule" la opción Exact Version y escribir 5.0.2 y por último dar click en el botón de "Add Package"
-14. Después de haber instalado las librerias es momento de correr la aplicación
+
+14. Después de haber descargado e instalado las librerias es momento de correr la aplicación dando click en ese icono de Play
+<img src="/assets/pic6.png" alt="drawing" height="50"/>
+
+15. En caso de haber un error con el archivo de GoogleService-Info, se tendrá que borrar e importar de nuevo dando click derecho en la carpeta con el nombre del proyecto y seleccionando la opción del menú "Add Files to BookStation". El archivo GoogleService lo encuentras en la carpeta assets dentro de la carpeta descargada del repositorio
+<img src="/assets/pic7.png" alt="drawing" height="400"/>
+
+16. Finalizando los pasos anteriores no habrá mas problemas y podra iniciar la aplicación en el Simulador 
+<img src="/assets/pic5.png" alt="drawing" height="400"/>
+
+## Credenciales
+ |     Correo  |       Contraseña    | 
+|:-------------:| :-------------:|
+| usuario@prueba.com | prueba1234 |  
+| prueba@usuario.com | usuario1234 |  
+
+
 
 
