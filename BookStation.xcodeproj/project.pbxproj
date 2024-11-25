@@ -20,6 +20,14 @@
 		ECC75CBC2CF2B4FF00A837B9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */; };
 		ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */; };
 		ECC75CC12CF2DB0500A837B9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */; };
+		ECC75CC32CF39CE200A837B9 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC22CF39CE200A837B9 /* BooksView.swift */; };
+		ECC75CC52CF39CF600A837B9 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC42CF39CF600A837B9 /* UserInfoView.swift */; };
+		ECC75CC72CF39D1000A837B9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC62CF39D1000A837B9 /* SettingsView.swift */; };
+		ECC75CC92CF3A0EB00A837B9 /* BooksApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CC82CF3A0EB00A837B9 /* BooksApi.swift */; };
+		ECC75CCC2CF3A3F900A837B9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = ECC75CCB2CF3A3F900A837B9 /* SwiftyJSON */; };
+		ECC75CCE2CF3AB4200A837B9 /* AuthDataResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */; };
+		ECC75CD02CF3ABAE00A837B9 /* ApiBooksResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */; };
+		ECC75CD22CF3C73A00A837B9 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,13 @@
 		ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ECC75CC22CF39CE200A837B9 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		ECC75CC42CF39CF600A837B9 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		ECC75CC62CF39D1000A837B9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ECC75CC82CF3A0EB00A837B9 /* BooksApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApi.swift; sourceTree = "<group>"; };
+		ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
+		ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBooksResultModel.swift; sourceTree = "<group>"; };
+		ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,7 @@
 			files = (
 				EC4CF0022CF19F65009F81EE /* FirebaseAnalyticsSwift in Frameworks */,
 				EC4CF0052CF244D0009F81EE /* FirebaseAuth in Frameworks */,
+				ECC75CCC2CF3A3F900A837B9 /* SwiftyJSON in Frameworks */,
 				EC4CF0002CF19F65009F81EE /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				EC3DEA922CF257F200328B7B /* AuthenticationManager.swift */,
+				ECC75CC82CF3A0EB00A837B9 /* BooksApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -145,6 +162,9 @@
 				EC4CF0092CF24694009F81EE /* AuthenticationView.swift */,
 				ECC75CB92CF2A87600A837B9 /* HomeView.swift */,
 				ECC75CBB2CF2B4FF00A837B9 /* RootView.swift */,
+				ECC75CC22CF39CE200A837B9 /* BooksView.swift */,
+				ECC75CC42CF39CF600A837B9 /* UserInfoView.swift */,
+				ECC75CC62CF39D1000A837B9 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +174,9 @@
 			children = (
 				ECC75CBE2CF2DA9200A837B9 /* AuthenticationViewModel.swift */,
 				ECC75CC02CF2DB0500A837B9 /* HomeViewModel.swift */,
+				ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */,
+				ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */,
+				ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +201,7 @@
 				EC4CEFFF2CF19F65009F81EE /* FirebaseAnalytics */,
 				EC4CF0012CF19F65009F81EE /* FirebaseAnalyticsSwift */,
 				EC4CF0042CF244D0009F81EE /* FirebaseAuth */,
+				ECC75CCB2CF3A3F900A837B9 /* SwiftyJSON */,
 			);
 			productName = BookStation;
 			productReference = EC496B792CF17DB100615C4E /* BookStation.app */;
@@ -253,6 +277,7 @@
 			mainGroup = EC496B702CF17DB000615C4E;
 			packageReferences = (
 				EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ECC75CCA2CF3A3F900A837B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = EC496B7A2CF17DB100615C4E /* Products */;
 			projectDirPath = "";
@@ -297,9 +322,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC75CD02CF3ABAE00A837B9 /* ApiBooksResultModel.swift in Sources */,
+				ECC75CCE2CF3AB4200A837B9 /* AuthDataResultModel.swift in Sources */,
+				ECC75CC52CF39CF600A837B9 /* UserInfoView.swift in Sources */,
+				ECC75CD22CF3C73A00A837B9 /* BooksViewModel.swift in Sources */,
 				ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */,
 				EC3DEA932CF257F200328B7B /* AuthenticationManager.swift in Sources */,
 				ECC75CC12CF2DB0500A837B9 /* HomeViewModel.swift in Sources */,
+				ECC75CC92CF3A0EB00A837B9 /* BooksApi.swift in Sources */,
+				ECC75CC32CF39CE200A837B9 /* BooksView.swift in Sources */,
+				ECC75CC72CF39D1000A837B9 /* SettingsView.swift in Sources */,
 				EC496B7D2CF17DB100615C4E /* BookStationApp.swift in Sources */,
 				EC4CF00A2CF24694009F81EE /* AuthenticationView.swift in Sources */,
 				ECC75CBA2CF2A87600A837B9 /* HomeView.swift in Sources */,
@@ -653,6 +685,14 @@
 				version = 10.4.0;
 			};
 		};
+		ECC75CCA2CF3A3F900A837B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -670,6 +710,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC4CEFFE2CF19F65009F81EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		ECC75CCB2CF3A3F900A837B9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC75CCA2CF3A3F900A837B9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

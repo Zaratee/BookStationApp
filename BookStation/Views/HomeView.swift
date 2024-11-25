@@ -6,6 +6,15 @@ struct HomeView: View {
     var body: some View {
         VStack{
             NavigationLink(destination: RootView().navigationBarHidden(true) , isActive: $viewModel.isLoggedOut) { }
+            List {
+                   NavigationLink("Search Book") { BooksView() }
+                   NavigationLink("User info") { UserInfoView() }
+                   NavigationLink("Settings") { SettingsView() }
+               }
+            Image("logo")
+                .resizable()
+                .frame(width: 65, height: 65)
+                .padding(.vertical)
             Button("Logout"){
                 Task{
                     do{
@@ -14,7 +23,7 @@ struct HomeView: View {
                         print(error)
                     }
                 }
-            }
+            }.padding()
         }
     }
 }

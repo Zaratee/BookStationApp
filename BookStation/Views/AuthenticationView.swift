@@ -51,9 +51,7 @@ struct AuthenticationView: View {
                         .frame(height: 30)
                         .frame(maxWidth: 130)
                         .cornerRadius(20)
-
                 }
-
             }
             .frame(width: 250, height: 400, alignment: SwiftUI.Alignment.top)
             .background(Color.white)
