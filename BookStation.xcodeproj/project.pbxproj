@@ -28,6 +28,7 @@
 		ECC75CCE2CF3AB4200A837B9 /* AuthDataResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */; };
 		ECC75CD02CF3ABAE00A837B9 /* ApiBooksResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */; };
 		ECC75CD22CF3C73A00A837B9 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */; };
+		ECC75CD42CF4143500A837B9 /* UserInfoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC75CD32CF4143500A837B9 /* UserInfoModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
 		ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBooksResultModel.swift; sourceTree = "<group>"; };
 		ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		ECC75CD32CF4143500A837B9 /* UserInfoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				ECC75CCD2CF3AB4200A837B9 /* AuthDataResultModel.swift */,
 				ECC75CCF2CF3ABAE00A837B9 /* ApiBooksResultModel.swift */,
 				ECC75CD12CF3C73A00A837B9 /* BooksViewModel.swift */,
+				ECC75CD32CF4143500A837B9 /* UserInfoModule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			files = (
 				ECC75CD02CF3ABAE00A837B9 /* ApiBooksResultModel.swift in Sources */,
 				ECC75CCE2CF3AB4200A837B9 /* AuthDataResultModel.swift in Sources */,
+				ECC75CD42CF4143500A837B9 /* UserInfoModule.swift in Sources */,
 				ECC75CC52CF39CF600A837B9 /* UserInfoView.swift in Sources */,
 				ECC75CD22CF3C73A00A837B9 /* BooksViewModel.swift in Sources */,
 				ECC75CBF2CF2DA9200A837B9 /* AuthenticationViewModel.swift in Sources */,
